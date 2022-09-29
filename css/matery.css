@@ -239,13 +239,11 @@ mark {
 .container .row {
     margin-bottom: 0;
 }
-
 .bg-color {
     /*background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
     /*background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
-
-    background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    opacity: 0.9;
 }
 
 .text-color {
@@ -261,7 +259,8 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /*background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
     opacity: 0.8;
 }
 
@@ -1847,7 +1846,8 @@ footer a {
 }
 
 footer .copy-right {
-    color: #dbdbdb;
+    /*color: #dbdbdb;*/
+    color: #fff;
 }
 
 /*搜索层样式*/
@@ -2298,3 +2298,4 @@ body.DarkMode .theme-btn:hover {
     font-weight: 900;
     color: #d9534f;
 }
+
