@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>测试是否可以使用</title>
+      <link href="/2023/07/09/ce-shi-shi-fou-ke-yi-shi-yong/"/>
+      <url>/2023/07/09/ce-shi-shi-fou-ke-yi-shi-yong/</url>
+      
+        <content type="html"><![CDATA[<h1 id="媒体查询"><a href="#媒体查询" class="headerlink" title="媒体查询"></a>媒体查询</h1><h4 id="1-语法规范"><a href="#1-语法规范" class="headerlink" title="1.语法规范"></a>1.语法规范</h4><figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">@media mediatype and|not|only (media feature) {</span><br><span class="line">    CSS-Code;</span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure><ul><li><p>用@media 开头 注意@符号</p></li><li><p>mediatype 媒体类型</p></li><li><p>关键 and | not |only</p></li><li><p>media feature 媒体特性必须有小括号包含</p></li></ul><h5 id="1-1-mediatype-查询类型"><a href="#1-1-mediatype-查询类型" class="headerlink" title="1.1 mediatype 查询类型"></a>1.1 mediatype 查询类型</h5><p>将不同终端设备划分称不同类型的，称为媒体类型</p><ul><li><p>all 用于设备</p></li><li><p>print 打印机和打印预览</p></li><li><p><strong>screen 电脑屏幕，平板电脑，智能手机等 (重点)</strong></p></li><li><p>speech 应用于屏幕阅读器等发声设备</p></li></ul><h5 id="1-2-关键字"><a href="#1-2-关键字" class="headerlink" title="1.2 关键字"></a>1.2 关键字</h5><p>关键字将媒体类型或多个媒体特性连接到一起作为媒体查询的条件</p><ul><li><p>and：可以将多个媒体特性连接到一起，相当于”且“的意思</p></li><li><p>not：排除某个媒体类型，相当于”非“的意思，可以省略</p></li><li><p>only：指定某个特定的媒体类型，可以省略</p></li></ul><h5 id="1-3-媒体特性"><a href="#1-3-媒体特性" class="headerlink" title="1.3 媒体特性"></a>1.3 媒体特性</h5><p>每种媒体类型都具有不同的特性，根据不同的媒体类型的媒体特性设置不同的展示风格。暂且了解 3 个，注意他们要加小括号包含</p><ul><li><p>width: 定义输出设备中页面可见区域的宽度</p></li><li><p>min-width:定义输出设备中页面最小可见区域的宽度</p></li><li><p>max-width:定义输出设备中页面最大可见区域的宽度</p></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> CSS </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/09/27/hello-world/"/>
       <url>/2022/09/27/hello-world/</url>
