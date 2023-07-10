@@ -193,7 +193,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://9yue.github.io/2022/06/02/git-bao-cuo-wei-neng-shun-li-jie-shu-tui-chu-ma-128/">
+    <link itemprop="mainEntityOfPage" href="https://9yue.github.io/2022/06/02/git-cha-kan-xiu-gai-yong-hu-xin-xi-deng-ming-ling/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -207,7 +207,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2022/06/02/git-bao-cuo-wei-neng-shun-li-jie-shu-tui-chu-ma-128/" class="post-title-link" itemprop="url">git报错未能顺利结束 (退出码 128)</a>
+            <a href="/2022/06/02/git-cha-kan-xiu-gai-yong-hu-xin-xi-deng-ming-ling/" class="post-title-link" itemprop="url">git查看修改用户信息等命令</a>
         </h2>
 
         <div class="post-meta">
@@ -224,7 +224,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-07-10 18:58:48" itemprop="dateModified" datetime="2023-07-10T18:58:48+08:00">2023-07-10</time>
+                <time title="修改时间：2023-07-10 18:15:06" itemprop="dateModified" datetime="2023-07-10T18:15:06+08:00">2023-07-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -247,19 +247,40 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h6 id="错误效果图："><a href="#错误效果图：" class="headerlink" title="错误效果图："></a>错误效果图：</h6><p>错误原因：当前提交的远程库，账号和密码用户有问题</p>
-<p><img src="C:\Users\17227\AppData\Roaming\marktext\images\2023-05-05-23-02-40-1683298957213.png"></p>
-<h6 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h6><ol>
-<li><p>控制面板-&gt;查看方式 -&gt;小图标</p>
+          <ol>
+<li><p>查看 git 配置命令<code> git config</code></p>
 </li>
-<li><p>选择凭据管理器</p>
+<li><p>config 配置有 system 级别 &nbsp;global（用户级别） 和 local（当前仓库）三个， 设置先从 system-&gt;global-&gt;local &nbsp; 底层配置会覆盖顶层配置；</p>
+<ul>
+<li><p>查看系统 config<code>git config --system --list</code></p>
+</li>
+<li><p>查看当前用户（global）配置 <code>git config --global&nbsp; --list</code></p>
+</li>
+<li><p>查看当前仓库配置信息 <code>git config --``local</code>&nbsp;&nbsp;<code>--list</code></p>
+</li>
+</ul>
+</li>
+<li><p>查看用户信息：</p>
+<ul>
+<li><p>查看用户名：git config user.name</p>
+</li>
+<li><p>查看密码：git config user.password</p>
+</li>
+<li><p>查看邮箱：git config user.email</p>
+</li>
+</ul>
+</li>
+<li><p>修改用户信息</p>
+<ul>
+<li><p>修改用户名：git config –global user.name 用户名（lm）</p>
+</li>
+<li><p>修改密码：git config –global user.password 密码(123456)</p>
+</li>
+<li><p>修改邮箱：git config –global user.email 邮箱（<a href="mailto:123@qq.com">123@qq.com</a>）</p>
+</li>
+</ul>
 </li>
 </ol>
-<img title="" src="file:///C:/Users/17227/AppData/Roaming/marktext/images/2023-05-05-23-07-29-1683299234859.png" alt="" width="675">
-
-<p>3.进入 windows 凭据</p>
-<p>4.找到对应的地址修改登录名称和密码即可</p>
-<p><img src="C:\Users\17227\AppData\Roaming\marktext\images\2023-05-05-23-07-32-1683299234871.png"></p>
 
       
     </div>

@@ -227,21 +227,19 @@
   </entry>
   
   <entry>
-    <title>git查看修改用户信息等命令</title>
-    <link href="https://9yue.github.io/2022/06/02/git-cha-kan-xiu-gai-yong-hu-xin-xi-deng-ming-ling/"/>
-    <id>https://9yue.github.io/2022/06/02/git-cha-kan-xiu-gai-yong-hu-xin-xi-deng-ming-ling/</id>
+    <title>git报错未能顺利结束 (退出码 128)</title>
+    <link href="https://9yue.github.io/2022/06/02/git-bao-cuo-wei-neng-shun-li-jie-shu-tui-chu-ma-128/"/>
+    <id>https://9yue.github.io/2022/06/02/git-bao-cuo-wei-neng-shun-li-jie-shu-tui-chu-ma-128/</id>
     <published>2022-06-02T13:07:24.000Z</published>
-    <updated>2023-07-10T10:15:06.894Z</updated>
+    <updated>2023-07-10T10:58:48.642Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;ol&gt;
-&lt;li&gt;&lt;p&gt;查看 git 配置命令&lt;code&gt; git config&lt;/code&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;config 配置有 system 级别 &amp;nbsp;global（用户级别） 和 local（当前仓库）三个， 设置先从</summary>
+    <summary type="html">&lt;h6 id=&quot;错误效果图：&quot;&gt;&lt;a href=&quot;#错误效果图：&quot; class=&quot;headerlink&quot; title=&quot;错误效果图：&quot;&gt;&lt;/a&gt;错误效果图：&lt;/h6&gt;&lt;p&gt;错误原因：当前提交的远程库，账号和密码用户有问题&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
         
       
     
@@ -251,6 +249,8 @@
     
     
     <category term="git" scheme="https://9yue.github.io/tags/git/"/>
+    
+    <category term="git报错" scheme="https://9yue.github.io/tags/git%E6%8A%A5%E9%94%99/"/>
     
   </entry>
   
@@ -284,19 +284,21 @@
   </entry>
   
   <entry>
-    <title>git报错未能顺利结束 (退出码 128)</title>
-    <link href="https://9yue.github.io/2022/06/02/git-bao-cuo-wei-neng-shun-li-jie-shu-tui-chu-ma-128/"/>
-    <id>https://9yue.github.io/2022/06/02/git-bao-cuo-wei-neng-shun-li-jie-shu-tui-chu-ma-128/</id>
+    <title>git查看修改用户信息等命令</title>
+    <link href="https://9yue.github.io/2022/06/02/git-cha-kan-xiu-gai-yong-hu-xin-xi-deng-ming-ling/"/>
+    <id>https://9yue.github.io/2022/06/02/git-cha-kan-xiu-gai-yong-hu-xin-xi-deng-ming-ling/</id>
     <published>2022-06-02T13:07:24.000Z</published>
-    <updated>2023-07-10T10:58:48.642Z</updated>
+    <updated>2023-07-10T10:15:06.894Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h6 id=&quot;错误效果图：&quot;&gt;&lt;a href=&quot;#错误效果图：&quot; class=&quot;headerlink&quot; title=&quot;错误效果图：&quot;&gt;&lt;/a&gt;错误效果图：&lt;/h6&gt;&lt;p&gt;错误原因：当前提交的远程库，账号和密码用户有问题&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;查看 git 配置命令&lt;code&gt; git config&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;config 配置有 system 级别 &amp;nbsp;global（用户级别） 和 local（当前仓库）三个， 设置先从</summary>
         
       
     
@@ -306,8 +308,6 @@
     
     
     <category term="git" scheme="https://9yue.github.io/tags/git/"/>
-    
-    <category term="git报错" scheme="https://9yue.github.io/tags/git%E6%8A%A5%E9%94%99/"/>
     
   </entry>
   
