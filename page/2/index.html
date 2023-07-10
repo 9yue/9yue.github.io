@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
-  <meta name="google-site-verification" content="googlef0a7eed4508f9326.html">
+  <meta name="google-site-verification" content="googlef0a7eed4508f9326">
 
 <link rel="stylesheet" href="/css/main.css">
 
@@ -207,7 +207,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/post/undefined.html" class="post-title-link" itemprop="url">git报错未能顺利结束 (退出码 128)</a>
+            <a href="/post/undefined.html" class="post-title-link" itemprop="url">git查看修改用户信息等命令</a>
         </h2>
 
         <div class="post-meta">
@@ -224,7 +224,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-07-10 18:58:48" itemprop="dateModified" datetime="2023-07-10T18:58:48+08:00">2023-07-10</time>
+                <time title="修改时间：2023-07-10 18:15:06" itemprop="dateModified" datetime="2023-07-10T18:15:06+08:00">2023-07-10</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -247,19 +247,40 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h6 id="错误效果图："><a href="#错误效果图：" class="headerlink" title="错误效果图："></a>错误效果图：</h6><p>错误原因：当前提交的远程库，账号和密码用户有问题</p>
-<p><img src="C:\Users\17227\AppData\Roaming\marktext\images\2023-05-05-23-02-40-1683298957213.png"></p>
-<h6 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h6><ol>
-<li><p>控制面板-&gt;查看方式 -&gt;小图标</p>
+          <ol>
+<li><p>查看 git 配置命令<code> git config</code></p>
 </li>
-<li><p>选择凭据管理器</p>
+<li><p>config 配置有 system 级别 &nbsp;global（用户级别） 和 local（当前仓库）三个， 设置先从 system-&gt;global-&gt;local &nbsp; 底层配置会覆盖顶层配置；</p>
+<ul>
+<li><p>查看系统 config<code>git config --system --list</code></p>
+</li>
+<li><p>查看当前用户（global）配置 <code>git config --global&nbsp; --list</code></p>
+</li>
+<li><p>查看当前仓库配置信息 <code>git config --``local</code>&nbsp;&nbsp;<code>--list</code></p>
+</li>
+</ul>
+</li>
+<li><p>查看用户信息：</p>
+<ul>
+<li><p>查看用户名：git config user.name</p>
+</li>
+<li><p>查看密码：git config user.password</p>
+</li>
+<li><p>查看邮箱：git config user.email</p>
+</li>
+</ul>
+</li>
+<li><p>修改用户信息</p>
+<ul>
+<li><p>修改用户名：git config –global user.name 用户名（lm）</p>
+</li>
+<li><p>修改密码：git config –global user.password 密码(123456)</p>
+</li>
+<li><p>修改邮箱：git config –global user.email 邮箱（<a href="mailto:123@qq.com">123@qq.com</a>）</p>
+</li>
+</ul>
 </li>
 </ol>
-<img title="" src="file:///C:/Users/17227/AppData/Roaming/marktext/images/2023-05-05-23-07-29-1683299234859.png" alt="" width="675">
-
-<p>3.进入 windows 凭据</p>
-<p>4.找到对应的地址修改登录名称和密码即可</p>
-<p><img src="C:\Users\17227\AppData\Roaming\marktext\images\2023-05-05-23-07-32-1683299234871.png"></p>
 
       
     </div>
@@ -611,6 +632,147 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
+            <a href="/post/undefined.html" class="post-title-link" itemprop="url">定位2</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-30 21:07:24" itemprop="dateCreated datePublished" datetime="2022-05-30T21:07:24+08:00">2022-05-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-07-10 17:33:04" itemprop="dateModified" datetime="2023-07-10T17:33:04+08:00">2023-07-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/CSS/" itemprop="url" rel="index"><span itemprop="name">CSS</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h3 id="1-定位叠放次序-z-index"><a href="#1-定位叠放次序-z-index" class="headerlink" title="1.定位叠放次序 z-index"></a>1.定位叠放次序 z-index</h3><p>语法：</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">选择器{z-index:1;}</span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li><p>数值可以是正整数、负整数或0，默认是auto，数值越大，盒子越靠上</p>
+</li>
+<li><p>如果属性值相同，则按照书写顺序，后来居上</p>
+</li>
+<li><p>数字后面不能加单位</p>
+</li>
+<li><p>只有定位的盒子才有z-index属性</p>
+</li>
+</ul>
+<h3 id="2-定位拓展"><a href="#2-定位拓展" class="headerlink" title="2. 定位拓展"></a>2. 定位拓展</h3><h5 id="1-绝对定位的盒子居中"><a href="#1-绝对定位的盒子居中" class="headerlink" title="1.绝对定位的盒子居中"></a>1.绝对定位的盒子居中</h5><p>加了绝对定位的盒子，不能通过<strong>margin:0 atuo</strong> 水平居中，但是可以通过以下算法实现水平和垂直居中。</p>
+<ol>
+<li><p>left:50%；让盒子的左侧移动到父级元素的水平中心位置。</p>
+</li>
+<li><p>margin-left：-100px;让盒子向左移动自身宽度的一半</p>
+</li>
+</ol>
+<h5 id="2-定位特殊特性"><a href="#2-定位特殊特性" class="headerlink" title="2.定位特殊特性"></a>2.定位特殊特性</h5><p>绝对定位和固定定位也和浮动类似</p>
+<ol>
+<li><p>行内元素添加绝对或固定定位，可以直接设置高度和宽度</p>
+</li>
+<li><p>块级元素添加绝对或固定定位，如果不设置宽度和高度，默认大小是内容的大小</p>
+</li>
+</ol>
+<h5 id="3-脱标的盒子不会触发外边距塌陷"><a href="#3-脱标的盒子不会触发外边距塌陷" class="headerlink" title="3.脱标的盒子不会触发外边距塌陷"></a>3.脱标的盒子不会触发外边距塌陷</h5><p>浮动元素、绝对定位（固定定位）元素的都不会触发外边距合并的问题</p>
+<h5 id="4-绝对定位（固定定位）会完全压住盒子"><a href="#4-绝对定位（固定定位）会完全压住盒子" class="headerlink" title="4.绝对定位（固定定位）会完全压住盒子"></a>4.绝对定位（固定定位）会完全压住盒子</h5><p>浮动元素不同，只会压住它下面标准流的盒子，但是<strong>不会压住下面标准流盒子里面的文字（图片）</strong></p>
+<p>但是绝对定位（固定定位）会压住下面标准流所有的内容</p>
+<p>浮动之所以不会压住文字，因为浮动产生的最初目的是为了做文字环绕效果的。文字会围绕浮动元素</p>
+<h3 id="3-网页布局总结"><a href="#3-网页布局总结" class="headerlink" title="3.网页布局总结"></a>3.网页布局总结</h3><p><img src="C:\Users\17227\AppData\Roaming\marktext\images\2023-05-30-18-31-56-1685442699951.png"></p>
+<h3 id="4-显示和隐藏"><a href="#4-显示和隐藏" class="headerlink" title="4.显示和隐藏"></a>4.显示和隐藏</h3><ol>
+<li><p>display 显示隐藏（重点）</p>
+<ul>
+<li><p>display:none;隐藏对象</p>
+</li>
+<li><p>display:block;除了转换为块级元素之外，同事还有显示元素的意思</p>
+</li>
+<li><p><strong>display隐藏元素后，不再占有原来的位置</strong></p>
+</li>
+</ul>
+</li>
+<li><p>visibility（可见性） 显示隐藏</p>
+<ul>
+<li><p>visbility:visible;元素可视</p>
+</li>
+<li><p>visbility:hidden; 元素隐藏</p>
+</li>
+<li><p><strong>visbility隐藏元素后，继续占有原来的位置</strong></p>
+</li>
+</ul>
+</li>
+<li><p>overflow 溢出显示隐藏</p>
+<ul>
+<li><p>overflow:visible; 不剪切内容也不添加滚动条（默认）</p>
+</li>
+<li><p>overflow:hidden; 不显示超过对象尺寸的内容，超出的部分隐藏掉</p>
+</li>
+<li><p>overflow:scroll；不管超出内容否，总是显示滚动条</p>
+</li>
+<li><p>overflow:auto; 超出部分自动显示滚动条，不超出不显示滚动条</p>
+</li>
+<li><p><strong>有定位的盒子，慎用overflow：hidden，因为它会隐藏多余的部分</strong></p>
+</li>
+</ul>
+</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://9yue.github.io/post/undefined.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="小鱼">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小鱼的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
             <a href="/post/undefined.html" class="post-title-link" itemprop="url">定位</a>
         </h2>
 
@@ -838,147 +1000,6 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/post/undefined.html" class="post-title-link" itemprop="url">定位2</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2022-05-30 21:07:24" itemprop="dateCreated datePublished" datetime="2022-05-30T21:07:24+08:00">2022-05-30</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-07-10 17:33:04" itemprop="dateModified" datetime="2023-07-10T17:33:04+08:00">2023-07-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/CSS/" itemprop="url" rel="index"><span itemprop="name">CSS</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="1-定位叠放次序-z-index"><a href="#1-定位叠放次序-z-index" class="headerlink" title="1.定位叠放次序 z-index"></a>1.定位叠放次序 z-index</h3><p>语法：</p>
-<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">选择器{z-index:1;}</span><br></pre></td></tr></tbody></table></figure>
-
-<ul>
-<li><p>数值可以是正整数、负整数或0，默认是auto，数值越大，盒子越靠上</p>
-</li>
-<li><p>如果属性值相同，则按照书写顺序，后来居上</p>
-</li>
-<li><p>数字后面不能加单位</p>
-</li>
-<li><p>只有定位的盒子才有z-index属性</p>
-</li>
-</ul>
-<h3 id="2-定位拓展"><a href="#2-定位拓展" class="headerlink" title="2. 定位拓展"></a>2. 定位拓展</h3><h5 id="1-绝对定位的盒子居中"><a href="#1-绝对定位的盒子居中" class="headerlink" title="1.绝对定位的盒子居中"></a>1.绝对定位的盒子居中</h5><p>加了绝对定位的盒子，不能通过<strong>margin:0 atuo</strong> 水平居中，但是可以通过以下算法实现水平和垂直居中。</p>
-<ol>
-<li><p>left:50%；让盒子的左侧移动到父级元素的水平中心位置。</p>
-</li>
-<li><p>margin-left：-100px;让盒子向左移动自身宽度的一半</p>
-</li>
-</ol>
-<h5 id="2-定位特殊特性"><a href="#2-定位特殊特性" class="headerlink" title="2.定位特殊特性"></a>2.定位特殊特性</h5><p>绝对定位和固定定位也和浮动类似</p>
-<ol>
-<li><p>行内元素添加绝对或固定定位，可以直接设置高度和宽度</p>
-</li>
-<li><p>块级元素添加绝对或固定定位，如果不设置宽度和高度，默认大小是内容的大小</p>
-</li>
-</ol>
-<h5 id="3-脱标的盒子不会触发外边距塌陷"><a href="#3-脱标的盒子不会触发外边距塌陷" class="headerlink" title="3.脱标的盒子不会触发外边距塌陷"></a>3.脱标的盒子不会触发外边距塌陷</h5><p>浮动元素、绝对定位（固定定位）元素的都不会触发外边距合并的问题</p>
-<h5 id="4-绝对定位（固定定位）会完全压住盒子"><a href="#4-绝对定位（固定定位）会完全压住盒子" class="headerlink" title="4.绝对定位（固定定位）会完全压住盒子"></a>4.绝对定位（固定定位）会完全压住盒子</h5><p>浮动元素不同，只会压住它下面标准流的盒子，但是<strong>不会压住下面标准流盒子里面的文字（图片）</strong></p>
-<p>但是绝对定位（固定定位）会压住下面标准流所有的内容</p>
-<p>浮动之所以不会压住文字，因为浮动产生的最初目的是为了做文字环绕效果的。文字会围绕浮动元素</p>
-<h3 id="3-网页布局总结"><a href="#3-网页布局总结" class="headerlink" title="3.网页布局总结"></a>3.网页布局总结</h3><p><img src="C:\Users\17227\AppData\Roaming\marktext\images\2023-05-30-18-31-56-1685442699951.png"></p>
-<h3 id="4-显示和隐藏"><a href="#4-显示和隐藏" class="headerlink" title="4.显示和隐藏"></a>4.显示和隐藏</h3><ol>
-<li><p>display 显示隐藏（重点）</p>
-<ul>
-<li><p>display:none;隐藏对象</p>
-</li>
-<li><p>display:block;除了转换为块级元素之外，同事还有显示元素的意思</p>
-</li>
-<li><p><strong>display隐藏元素后，不再占有原来的位置</strong></p>
-</li>
-</ul>
-</li>
-<li><p>visibility（可见性） 显示隐藏</p>
-<ul>
-<li><p>visbility:visible;元素可视</p>
-</li>
-<li><p>visbility:hidden; 元素隐藏</p>
-</li>
-<li><p><strong>visbility隐藏元素后，继续占有原来的位置</strong></p>
-</li>
-</ul>
-</li>
-<li><p>overflow 溢出显示隐藏</p>
-<ul>
-<li><p>overflow:visible; 不剪切内容也不添加滚动条（默认）</p>
-</li>
-<li><p>overflow:hidden; 不显示超过对象尺寸的内容，超出的部分隐藏掉</p>
-</li>
-<li><p>overflow:scroll；不管超出内容否，总是显示滚动条</p>
-</li>
-<li><p>overflow:auto; 超出部分自动显示滚动条，不超出不显示滚动条</p>
-</li>
-<li><p><strong>有定位的盒子，慎用overflow：hidden，因为它会隐藏多余的部分</strong></p>
-</li>
-</ul>
-</li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://9yue.github.io/post/undefined.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="小鱼">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小鱼的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
             <a href="/post/undefined.html" class="post-title-link" itemprop="url">css属性书写顺序</a>
         </h2>
 
@@ -1031,6 +1052,81 @@
 </li>
 </ol>
 
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://9yue.github.io/post/undefined.html">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="小鱼">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="小鱼的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/post/undefined.html" class="post-title-link" itemprop="url">vscode打开新文件会覆盖窗口中的</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-04 23:07:24" itemprop="dateCreated datePublished" datetime="2022-05-04T23:07:24+08:00">2022-05-04</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2023-07-10 18:58:57" itemprop="dateModified" datetime="2023-07-10T18:58:57+08:00">2023-07-10</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">工具</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h6 id="预览模式"><a href="#预览模式" class="headerlink" title="预览模式"></a>预览模式</h6><p>预览模式是现在各类编辑器默认功能，即单击其他文件时，会覆盖当前打开页面；</p>
+<p>所以如果想打开新的页面而不是覆盖，请 <strong>双击</strong> 新文件</p>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1>
       
     </div>
 
@@ -1116,81 +1212,6 @@
 </li>
 </ol>
 
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://9yue.github.io/post/undefined.html">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="小鱼">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="小鱼的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/post/undefined.html" class="post-title-link" itemprop="url">vscode打开新文件会覆盖窗口中的</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2022-05-04 23:07:24" itemprop="dateCreated datePublished" datetime="2022-05-04T23:07:24+08:00">2022-05-04</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2023-07-10 18:58:57" itemprop="dateModified" datetime="2023-07-10T18:58:57+08:00">2023-07-10</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%B7%A5%E5%85%B7/" itemprop="url" rel="index"><span itemprop="name">工具</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h6 id="预览模式"><a href="#预览模式" class="headerlink" title="预览模式"></a>预览模式</h6><p>预览模式是现在各类编辑器默认功能，即单击其他文件时，会覆盖当前打开页面；</p>
-<p>所以如果想打开新的页面而不是覆盖，请 <strong>双击</strong> 新文件</p>
-<h1 id=""><a href="#" class="headerlink" title=""></a></h1>
       
     </div>
 
