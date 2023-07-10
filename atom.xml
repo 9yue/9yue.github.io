@@ -3,11 +3,11 @@
   <title>小鱼的博客</title>
   
   <subtitle> </subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://9yue.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
-  <updated>2023-07-09T14:29:50.824Z</updated>
-  <id>http://example.com/</id>
+  <link href="https://9yue.github.io/"/>
+  <updated>2023-07-10T10:36:51.284Z</updated>
+  <id>https://9yue.github.io/</id>
   
   <author>
     <name>小鱼</name>
@@ -17,46 +17,535 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试是否可以使用</title>
-    <link href="http://example.com/2023/07/09/ce-shi-shi-fou-ke-yi-shi-yong/"/>
-    <id>http://example.com/2023/07/09/ce-shi-shi-fou-ke-yi-shi-yong/</id>
-    <published>2023-07-09T14:07:24.000Z</published>
-    <updated>2023-07-09T14:29:50.824Z</updated>
+    <title>形势比人强</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2023-05-23T13:07:24.000Z</published>
+    <updated>2023-07-10T10:36:51.284Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h1 id=&quot;媒体查询&quot;&gt;&lt;a href=&quot;#媒体查询&quot; class=&quot;headerlink&quot; title=&quot;媒体查询&quot;&gt;&lt;/a&gt;媒体查询&lt;/h1&gt;&lt;h4 id=&quot;1-语法规范&quot;&gt;&lt;a href=&quot;#1-语法规范&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;作者：吴主任</summary>
         
       
     
     
     
-    <category term="CSS" scheme="http://example.com/categories/CSS/"/>
+    <category term="读书笔记" scheme="https://9yue.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
+    
+    <category term="读书笔记" scheme="https://9yue.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://example.com/2022/09/27/hello-world/"/>
-    <id>http://example.com/2022/09/27/hello-world/</id>
-    <published>2022-09-27T01:40:36.043Z</published>
-    <updated>2022-09-27T01:40:36.043Z</updated>
+    <title>媒体查询</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-29T15:37:00.000Z</published>
+    <updated>2023-07-10T10:14:37.554Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+    <summary type="html">&lt;h4 id=&quot;1-语法规范&quot;&gt;&lt;a href=&quot;#1-语法规范&quot; class=&quot;headerlink&quot; title=&quot;1.语法规范&quot;&gt;&lt;/a&gt;1.语法规范&lt;/h4&gt;&lt;figure class=&quot;highlight</summary>
         
       
     
     
     
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>rem基础</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-29T14:17:24.000Z</published>
+    <updated>2023-07-10T10:15:11.962Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;rem（root em）是一个相对单位，类似em；&lt;strong&gt;em是父元素字体大小&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;rem的基准：&lt;/strong&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="rem" scheme="https://9yue.github.io/tags/rem/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>flex布局</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-27T15:07:24.000Z</published>
+    <updated>2023-07-10T10:14:55.595Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;父项常见属性&quot;&gt;&lt;a href=&quot;#父项常见属性&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="flex" scheme="https://9yue.github.io/tags/flex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css3总结</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-21T15:40:24.000Z</published>
+    <updated>2023-07-10T10:14:40.976Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-新的选择器&quot;&gt;&lt;a href=&quot;#1-新的选择器&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS3" scheme="https://9yue.github.io/tags/CSS3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2D转换总结</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-16T13:07:24.000Z</published>
+    <updated>2023-07-10T10:14:19.680Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;转换 transform 简单理解就是变形 有 2D（针对于平面，x y 轴） 和 3D 之分&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;暂且学了三个 位移 旋转 和缩放&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;2D 移动 translate(x,y)</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS3" scheme="https://9yue.github.io/tags/CSS3/"/>
+    
+    <category term="2D" scheme="https://9yue.github.io/tags/2D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css的新特性</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-03T17:07:24.000Z</published>
+    <updated>2023-07-10T10:14:46.342Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;C:&#92;Users&#92;17227&#92;AppData&#92;Roaming&#92;marktext&#92;images&#92;2023-06-03-15-14-01-image.png&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;2-4-伪元素选择器（重点）&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS3" scheme="https://9yue.github.io/tags/CSS3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>H5的新特性</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-02T13:07:24.000Z</published>
+    <updated>2023-07-10T10:15:09.478Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="html" scheme="https://9yue.github.io/categories/html/"/>
+    
+    
+    <category term="H5" scheme="https://9yue.github.io/tags/H5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git报错Connection was reset</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-02T13:07:24.000Z</published>
+    <updated>2023-07-10T10:15:01.292Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;在git中执行git config –global –unset http.proxy和git config –global –unset https.proxy&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="git" scheme="https://9yue.github.io/categories/git/"/>
+    
+    
+    <category term="git" scheme="https://9yue.github.io/tags/git/"/>
+    
+    <category term="git报错" scheme="https://9yue.github.io/tags/git%E6%8A%A5%E9%94%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git报错未能顺利结束 (退出码 128)</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-02T13:07:24.000Z</published>
+    <updated>2023-07-10T10:58:48.642Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h6 id=&quot;错误效果图：&quot;&gt;&lt;a href=&quot;#错误效果图：&quot; class=&quot;headerlink&quot; title=&quot;错误效果图：&quot;&gt;&lt;/a&gt;错误效果图：&lt;/h6&gt;&lt;p&gt;错误原因：当前提交的远程库，账号和密码用户有问题&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="git" scheme="https://9yue.github.io/categories/git/"/>
+    
+    
+    <category term="git" scheme="https://9yue.github.io/tags/git/"/>
+    
+    <category term="git报错" scheme="https://9yue.github.io/tags/git%E6%8A%A5%E9%94%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git查看修改用户信息等命令</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-02T13:07:24.000Z</published>
+    <updated>2023-07-10T10:15:06.894Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;查看 git 配置命令&lt;code&gt; git config&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;config 配置有 system 级别 &amp;nbsp;global（用户级别） 和 local（当前仓库）三个， 设置先从</summary>
+        
+      
+    
+    
+    
+    <category term="git" scheme="https://9yue.github.io/categories/git/"/>
+    
+    
+    <category term="git" scheme="https://9yue.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode代码提示回车不上屏，变成换行的问题</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-02T13:07:24.000Z</published>
+    <updated>2023-07-10T10:58:59.676Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;解决vscode代码提示回车不上屏，变成换行的问题&quot;&gt;&lt;a href=&quot;#解决vscode代码提示回车不上屏，变成换行的问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://9yue.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="vscode" scheme="https://9yue.github.io/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>精灵图</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-05-31T16:07:24.000Z</published>
+    <updated>2023-07-10T09:28:58.120Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-精灵图&quot;&gt;&lt;a href=&quot;#1-精灵图&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css用户界面样式</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-05-31T13:07:24.000Z</published>
+    <updated>2023-07-10T09:36:17.345Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;css-用户界面样式&quot;&gt;&lt;a href=&quot;#css-用户界面样式&quot; class=&quot;headerlink&quot; title=&quot;css 用户界面样式&quot;&gt;&lt;/a&gt;css 用户界面样式&lt;/h1&gt;&lt;h3 id=&quot;1-鼠标样式-cursor&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS布局" scheme="https://9yue.github.io/tags/CSS%E5%B8%83%E5%B1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>定位2</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-05-30T13:07:24.000Z</published>
+    <updated>2023-07-10T09:33:04.609Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;1-定位叠放次序-z-index&quot;&gt;&lt;a href=&quot;#1-定位叠放次序-z-index&quot; class=&quot;headerlink&quot; title=&quot;1.定位叠放次序 z-index&quot;&gt;&lt;/a&gt;1.定位叠放次序</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS定位" scheme="https://9yue.github.io/tags/CSS%E5%AE%9A%E4%BD%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>定位</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-05-30T13:07:24.000Z</published>
+    <updated>2023-07-10T10:14:22.123Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;定位 = 定位模式 + 边偏移&lt;/p&gt;
+&lt;p&gt;定位模式：用于指定元素在文档中的定位方式&lt;/p&gt;
+&lt;p&gt;边偏移：决定了该元素的最终位置 &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;定位模式&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;定位模式：决定元素的定位方式，通过css的</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS定位" scheme="https://9yue.github.io/tags/CSS%E5%AE%9A%E4%BD%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>css属性书写顺序</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-05-23T15:07:24.000Z</published>
+    <updated>2023-07-10T09:47:15.770Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;css-属性书写顺序&quot;&gt;&lt;a href=&quot;#css-属性书写顺序&quot; class=&quot;headerlink&quot; title=&quot;css 属性书写顺序&quot;&gt;&lt;/a&gt;css</summary>
+        
+      
+    
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/categories/CSS/"/>
+    
+    
+    <category term="CSS" scheme="https://9yue.github.io/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode打开新文件会覆盖窗口中的</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-05-04T15:07:24.000Z</published>
+    <updated>2023-07-10T10:58:57.023Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h6 id=&quot;预览模式&quot;&gt;&lt;a href=&quot;#预览模式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://9yue.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="vscode" scheme="https://9yue.github.io/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode保存的时候自动格式化</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-05-04T15:07:24.000Z</published>
+    <updated>2023-07-10T10:58:53.996Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;左下角设置齿轮按钮&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;选择设置&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;用户-&amp;gt;文本编辑器-&amp;gt;格式化&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;给 FOrmat On Save</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://9yue.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="vscode" scheme="https://9yue.github.io/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>win10删除需要使用管理员权限才能删除的文件</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-04-23T13:07:24.000Z</published>
+    <updated>2023-07-10T10:59:01.372Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h4 id=&quot;删除-D-program-FrontBase1-文件&quot;&gt;&lt;a href=&quot;#删除-D-program-FrontBase1-文件&quot; class=&quot;headerlink&quot; title=&quot;删除 D:&#92;program&#92;FrontBase1 文件&quot;&gt;&lt;/a&gt;删除</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://9yue.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="win10" scheme="https://9yue.github.io/tags/win10/"/>
     
   </entry>
   
