@@ -256,34 +256,6 @@
   </entry>
   
   <entry>
-    <title>git报错未能顺利结束 (退出码 128)</title>
-    <link href="https://9yue.github.io/post/undefined.html"/>
-    <id>https://9yue.github.io/post/undefined.html</id>
-    <published>2022-06-02T13:07:24.000Z</published>
-    <updated>2023-07-10T10:58:48.642Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h6 id=&quot;错误效果图：&quot;&gt;&lt;a href=&quot;#错误效果图：&quot; class=&quot;headerlink&quot; title=&quot;错误效果图：&quot;&gt;&lt;/a&gt;错误效果图：&lt;/h6&gt;&lt;p&gt;错误原因：当前提交的远程库，账号和密码用户有问题&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="git" scheme="https://9yue.github.io/categories/git/"/>
-    
-    
-    <category term="git" scheme="https://9yue.github.io/tags/git/"/>
-    
-    <category term="git报错" scheme="https://9yue.github.io/tags/git%E6%8A%A5%E9%94%99/"/>
-    
-  </entry>
-  
-  <entry>
     <title>git查看修改用户信息等命令</title>
     <link href="https://9yue.github.io/post/undefined.html"/>
     <id>https://9yue.github.io/post/undefined.html</id>
@@ -308,6 +280,34 @@
     
     
     <category term="git" scheme="https://9yue.github.io/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>git报错未能顺利结束 (退出码 128)</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-06-02T13:07:24.000Z</published>
+    <updated>2023-07-10T10:58:48.642Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h6 id=&quot;错误效果图：&quot;&gt;&lt;a href=&quot;#错误效果图：&quot; class=&quot;headerlink&quot; title=&quot;错误效果图：&quot;&gt;&lt;/a&gt;错误效果图：&lt;/h6&gt;&lt;p&gt;错误原因：当前提交的远程库，账号和密码用户有问题&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="git" scheme="https://9yue.github.io/categories/git/"/>
+    
+    
+    <category term="git" scheme="https://9yue.github.io/tags/git/"/>
+    
+    <category term="git报错" scheme="https://9yue.github.io/tags/git%E6%8A%A5%E9%94%99/"/>
     
   </entry>
   
@@ -468,31 +468,6 @@
   </entry>
   
   <entry>
-    <title>vscode打开新文件会覆盖窗口中的</title>
-    <link href="https://9yue.github.io/post/undefined.html"/>
-    <id>https://9yue.github.io/post/undefined.html</id>
-    <published>2022-05-04T15:07:24.000Z</published>
-    <updated>2023-07-10T10:58:57.023Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h6 id=&quot;预览模式&quot;&gt;&lt;a href=&quot;#预览模式&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="工具" scheme="https://9yue.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
-    
-    
-    <category term="vscode" scheme="https://9yue.github.io/tags/vscode/"/>
-    
-  </entry>
-  
-  <entry>
     <title>vscode保存的时候自动格式化</title>
     <link href="https://9yue.github.io/post/undefined.html"/>
     <id>https://9yue.github.io/post/undefined.html</id>
@@ -512,6 +487,31 @@
 &lt;li&gt;&lt;p&gt;用户-&amp;gt;文本编辑器-&amp;gt;格式化&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;给 FOrmat On Save</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="https://9yue.github.io/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="vscode" scheme="https://9yue.github.io/tags/vscode/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>vscode打开新文件会覆盖窗口中的</title>
+    <link href="https://9yue.github.io/post/undefined.html"/>
+    <id>https://9yue.github.io/post/undefined.html</id>
+    <published>2022-05-04T15:07:24.000Z</published>
+    <updated>2023-07-10T10:58:57.023Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h6 id=&quot;预览模式&quot;&gt;&lt;a href=&quot;#预览模式&quot; class=&quot;headerlink&quot;</summary>
         
       
     
